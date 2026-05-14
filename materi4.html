@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <!-- ══════════════════════════════════════════
+       materi3.html — Materi 3: Sistem Operasi
+       Kelompok 2 | Pengkaderan Informatika
+       Path: materi/materi3.html
+       CSS/JS: ../assets/  |  Nav links: ../
+  ═════════════════════════════════════════════ -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Materi 3: Sistem Operasi — Kelompok 2 Pengkaderan Informatika" />
+  <title>Materi 3: Sistem Operasi — Kelompok 2</title>
+
+  <!-- Bootstrap 5 CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <!-- Custom CSS — path relatif dari materi/ ke assets/ -->
+  <link rel="stylesheet" href="../assets/css/style.css" />
+</head>
+<body class="page-wrapper">
+
+  <nav class="navbar navbar-expand-lg navbar-custom">
+    <div class="container">
+      <a class="navbar-brand-custom" href="../index.html">
+        <span class="brand-dot"></span>
+        KELOMPOK 2
+      </a>
+      <button class="navbar-toggler" type="button"
+              data-bs-toggle="collapse" data-bs-target="#navMenu"
+              aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navMenu">
+        <ul class="navbar-nav gap-1">
+          <li class="nav-item">
+            <a class="nav-link-custom" href="../index.html">
+              <i class="fas fa-house me-1" style="font-size:0.65rem;"></i> Home
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link-custom active" href="../materi.html">
+              <i class="fas fa-book-open me-1" style="font-size:0.65rem;"></i> Materi
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link-custom" href="../about.html">
+              <i class="fas fa-users me-1" style="font-size:0.65rem;"></i> Tentang Kami
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="main-content">
+
+    <!-- ─── PAGE HEADER ─── -->
+    <section class="materi-hero">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8">
+            <span class="materi-number-tag">
+              <i class="fas fa-circle" style="font-size:0.4rem;"></i>
+              MATERI 03 / 08
+            </span>
+            <h1 class="materi-page-title fade-in fade-in-1">Sistem Operasi</h1>
+            <p class="materi-page-desc fade-in fade-in-2">Memahami cara kerja sistem operasi modern dalam mengelola sumber daya perangkat keras dan lunak, dari manajemen proses hingga file system.</p>
+            <div class="d-flex flex-wrap gap-3 mt-3 fade-in fade-in-3">
+              <span class="info-tag"><i class="fas fa-server"></i> Materi 3</span>
+              <span class="info-tag"><i class="fas fa-clock"></i> 50 menit</span>
+              <span class="info-tag"><i class="fas fa-book"></i> 3 Topik</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── KONTEN MATERI ─── -->
+    <section class="section-block">
+      <div class="container">
+        <div class="row">
+          <!-- Konten Utama -->
+          <div class="col-lg-8">
+            <div class="mb-4 reveal">
+              <span class="section-tag">Ringkasan Materi</span>
+              <p style="color:var(--text-secondary);font-size:0.92rem;line-height:1.78;margin-top:0.7rem;font-weight:300;">
+                Memahami cara kerja sistem operasi modern dalam mengelola sumber daya perangkat keras dan lunak, dari manajemen proses hingga file system. Materi ini terdiri dari
+                <strong style="color:var(--accent);">3 topik utama</strong>
+                yang saling berkaitan dan dirancang untuk memberikan pemahaman menyeluruh.
+              </p>
+            </div>
+
+            <!-- Topik-topik -->
+
+          <div class="content-card reveal">
+            <h3><i class="fas fa-chevron-right me-2" style="font-size:0.7rem;"></i>Pengantar Sistem Operasi</h3>
+            <p>Sistem operasi adalah perangkat lunak inti yang menjembatani antara perangkat keras komputer dan aplikasi yang dijalankan pengguna.</p>
+            <ul class="mt-3">
+              <li>Fungsi dan tujuan OS</li>
+              <li>Sejarah perkembangan OS</li>
+              <li>Jenis-jenis OS (Unix, Windows, macOS)</li>
+              <li>Arsitektur kernel (monolithic, microkernel)</li>
+            </ul>
+          </div>
+          <div class="content-card reveal">
+            <h3><i class="fas fa-chevron-right me-2" style="font-size:0.7rem;"></i>Manajemen Proses &amp; Memori</h3>
+            <p>OS bertanggung jawab mengelola eksekusi program (proses) dan distribusi memori secara adil dan efisien di antara semua proses yang berjalan.</p>
+            <ul class="mt-3">
+              <li>Konsep proses dan thread</li>
+              <li>Scheduling: FCFS, SJF, Round Robin</li>
+              <li>Deadlock dan kondisi race</li>
+              <li>Virtual memory dan paging</li>
+            </ul>
+          </div>
+          <div class="content-card reveal">
+            <h3><i class="fas fa-chevron-right me-2" style="font-size:0.7rem;"></i>File System &amp; I/O</h3>
+            <p>Sistem berkas menentukan bagaimana data disimpan dan diorganisasi di storage. Manajemen I/O memastikan komunikasi lancar antara OS dan perangkat keras.</p>
+            <ul class="mt-3">
+              <li>Struktur direktori dan file</li>
+              <li>FAT, NTFS, ext4</li>
+              <li>Manajemen disk dan partisi</li>
+              <li>Driver perangkat dan interrupt</li>
+            </ul>
+          </div>
+
+            <!-- Navigasi Prev / Next -->
+        <div class="materi-nav-bar">
+          <div><a href="materi2.html" class="btn-ghost"><i class="fas fa-arrow-left"></i> Materi 2</a></div>
+          <a href="../materi.html" class="btn-ghost">
+            <i class="fas fa-th-large"></i> Semua Materi
+          </a>
+          <div><a href="materi4.html" class="btn-neon">Materi 4 <i class="fas fa-arrow-right"></i></a></div>
+        </div>
+          </div>
+
+          <!-- Sidebar -->
+          <div class="col-lg-4 mt-4 mt-lg-0">
+            <div class="content-card reveal" style="position:sticky;top:5.5rem;">
+              <h3><i class="fas fa-list-check me-2"></i>Daftar Topik</h3>
+              <ul><li>Pengantar Sistem Operasi</li><li>Manajemen Proses &amp; Memori</li><li>File System &amp; I/O</li></ul>
+              <div style="height:1px;background:var(--border);margin:1.2rem 0;"></div>
+              <h3><i class="fas fa-info-circle me-2"></i>Info Materi</h3>
+              <ul>
+                <li>Materi ke-3 dari 8</li>
+                <li>Estimasi: 50 menit</li>
+                <li>Kelompok 2 — 2024</li>
+              </ul>
+              <div style="height:1px;background:var(--border);margin:1.2rem 0;"></div>
+              <a href="../materi.html" class="btn-ghost w-100 justify-content-center">
+                <i class="fas fa-th-large"></i> Kembali ke Hub
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer-custom">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6 mb-3 mb-md-0">
+          <div class="footer-brand">KELOMPOK 2</div>
+          <div class="footer-text">Tugas Pengkaderan — <span class="footer-accent">Departemen Informatika</span></div>
+        </div>
+        <div class="col-md-6 text-md-end">
+          <a href="../index.html" class="footer-text me-3">Home</a>
+          <a href="../materi.html" class="footer-text me-3">Materi</a>
+          <a href="../about.html" class="footer-text">Tentang Kami</a>
+        </div>
+      </div>
+      <div class="footer-divider"></div>
+      <div class="footer-copy text-center">
+        &copy; 2024 Kelompok 2 — Pengkaderan Informatika. Dibuat dengan semangat belajar.
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap 5 JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Custom JS — path relatif dari materi/ ke assets/ -->
+  <script src="../assets/js/main.js"></script>
+</body>
+</html>

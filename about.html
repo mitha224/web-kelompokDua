@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <!-- ═══════════════════════════════════════════
+       about.html — Tentang Kami / Profil Anggota & Mentor
+       Kelompok 2 | Pengkaderan Informatika
+  ════════════════════════════════════════════ -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Anggota dan Mentor Kelompok 2 — Pengkaderan Informatika 2024" />
+  <title>Tentang Kami — Kelompok 2</title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+
+  <style>
+    /* ── Mentor badge label ── */
+    .mentor-section-label {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-family: var(--font-head);
+      font-size: 0.62rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: #fbbf24;
+      background: rgba(251,191,36,0.08);
+      border: 1px solid rgba(251,191,36,0.25);
+      padding: 0.28rem 0.85rem;
+      border-radius: 100px;
+      margin-bottom: 1rem;
+    }
+    .mentor-section-label .dot-gold {
+      width: 6px; height: 6px;
+      border-radius: 50%;
+      background: #fbbf24;
+      box-shadow: 0 0 6px #fbbf24;
+      flex-shrink: 0;
+    }
+    /* Section divider */
+    .divider-section {
+      height: 1px;
+      background: linear-gradient(90deg, transparent, var(--border), transparent);
+      margin: 3rem 0;
+    }
+  </style>
+</head>
+<body class="page-wrapper">
+
+  <!-- ═══════════════════════════════ NAVBAR ═══════════════════════════════ -->
+  <nav class="navbar navbar-expand-lg navbar-custom">
+    <div class="container">
+      <a class="navbar-brand-custom" href="index.html">
+        <span class="brand-dot"></span>
+        KELOMPOK 2
+      </a>
+      <button class="navbar-toggler" type="button"
+              data-bs-toggle="collapse" data-bs-target="#navMenu"
+              aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navMenu">
+        <ul class="navbar-nav gap-1">
+          <li class="nav-item">
+            <a class="nav-link-custom" href="index.html">
+              <i class="fas fa-house me-1" style="font-size:0.65rem;"></i> Home
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link-custom" href="materi.html">
+              <i class="fas fa-book-open me-1" style="font-size:0.65rem;"></i> Materi
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link-custom" href="about.html">
+              <i class="fas fa-users me-1" style="font-size:0.65rem;"></i> Tentang Kami
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- ═════════════════════════ END NAVBAR ═════════════════════════════════ -->
+
+
+  <main class="main-content">
+
+    <!-- ─── PAGE HEADER ─── -->
+    <section class="materi-hero">
+      <div class="container">
+        <div class="row align-items-center gy-4">
+
+          <div class="col-lg-7">
+            <span class="materi-number-tag">
+              <i class="fas fa-circle" style="font-size:0.4rem;"></i>
+              Kelompok 2
+            </span>
+            <h1 class="materi-page-title fade-in fade-in-1">
+              Tentang<br><span style="color: var(--accent);">Kelompok 2</span>
+            </h1>
+            <p class="materi-page-desc fade-in fade-in-2">
+              Sebelas mahasiswa Informatika yang bersatu dalam Kelompok 2, dibimbing oleh
+              dua dosen mentor berpengalaman. Klik kartu siapapun untuk melihat profil lengkapnya.
+            </p>
+            <div class="d-flex flex-wrap gap-3 mt-3 fade-in fade-in-3">
+              <span class="info-tag" style="color:#fbbf24;"><i class="fas fa-chalkboard-teacher" style="color:#fbbf24;"></i> 2 Mentor</span>
+              <span class="info-tag"><i class="fas fa-users"></i> 11 Anggota</span>
+              <span class="info-tag"><i class="fas fa-graduation-cap"></i> Informatika 2022</span>
+              <span class="info-tag"><i class="fas fa-mouse-pointer"></i> Klik kartu untuk profil</span>
+            </div>
+          </div>
+
+          <!-- Stats dekoratif -->
+          <div class="col-lg-5">
+            <div class="row g-3 fade-in fade-in-3">
+              <div class="col-4">
+                <div class="content-card text-center" style="padding:1.2rem;">
+                  <div style="font-family:var(--font-head);font-size:1.8rem;font-weight:900;color:#fbbf24;text-shadow:0 0 16px rgba(251,191,36,0.35);">02</div>
+                  <div style="font-size:0.68rem;color:var(--text-muted);font-family:var(--font-head);letter-spacing:0.08em;">Mentor</div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="content-card text-center" style="padding:1.2rem;">
+                  <div style="font-family:var(--font-head);font-size:1.8rem;font-weight:900;color:var(--accent);text-shadow:0 0 16px rgba(14,165,233,0.4);">11</div>
+                  <div style="font-size:0.68rem;color:var(--text-muted);font-family:var(--font-head);letter-spacing:0.08em;">Anggota</div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="content-card text-center" style="padding:1.2rem;">
+                  <div style="font-family:var(--font-head);font-size:1.8rem;font-weight:900;color:var(--accent);text-shadow:0 0 16px rgba(14,165,233,0.4);">08</div>
+                  <div style="font-size:0.68rem;color:var(--text-muted);font-family:var(--font-head);letter-spacing:0.08em;">Materi</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- ─── END HEADER ─── -->
+
+
+    <section class="section-block">
+      <div class="container">
+
+        <!-- ══════════════════════════════════════
+             BAGIAN MENTOR
+        ══════════════════════════════════════ -->
+        <div class="mb-2">
+          <div class="mentor-section-label">
+            <span class="dot-gold"></span>
+            Dosen Pembimbing
+          </div>
+          <h2 class="section-title mb-2" style="color:var(--text-primary);">
+            Mentor <span style="color:#fbbf24;">Kelompok 2</span>
+          </h2>
+          <p style="color:var(--text-secondary);font-size:0.88rem;font-weight:300;max-width:500px;margin-bottom:2rem;line-height:1.72;">
+            Dua dosen pembimbing berpengalaman yang mendampingi Kelompok 2 sepanjang
+            proses pengkaderan. Klik kartu untuk melihat profil lengkap.
+          </p>
+
+          <!--
+            Grid mentor — diisi otomatis oleh initMemberModal() di main.js
+            menggunakan array `mentors`
+          -->
+          <div class="row g-4 justify-content-center" id="mentors-grid">
+            <!-- Kartu mentor diisi JS -->
+          </div>
+        </div>
+
+        <!-- Pemisah antar seksi -->
+        <div class="divider-section"></div>
+
+        <!-- ══════════════════════════════════════
+             BAGIAN ANGGOTA
+        ══════════════════════════════════════ -->
+        <div>
+          <span class="section-tag">Tim Mahasiswa</span>
+          <h2 class="section-title mb-2">
+            Anggota <span class="accent">Kelompok 2</span>
+          </h2>
+          <p style="color:var(--text-secondary);font-size:0.88rem;font-weight:300;max-width:500px;margin-bottom:2rem;line-height:1.72;">
+            Sebelas mahasiswa Informatika angkatan 2022 yang bersama-sama menyusun
+            website pengkaderan ini. Klik kartu untuk melihat profil lengkap.
+          </p>
+
+          <!--
+            Grid anggota — diisi otomatis oleh initMemberModal() di main.js
+            menggunakan array `members`
+          -->
+          <div class="row g-4" id="members-grid">
+            <!-- Kartu anggota diisi JS -->
+            <noscript>
+              <div class="col-12 text-center" style="color:var(--text-muted);padding:2rem;">
+                JavaScript diperlukan untuk menampilkan profil anggota.
+              </div>
+            </noscript>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+
+  <!-- ═══════════════════════════ SHARED MODAL ═════════════════════════════ -->
+  <!--
+    Satu modal reusable untuk mentor DAN anggota.
+    JavaScript mengganti isi dan warna badge role secara otomatis.
+    - Mentor: badge berwarna emas (#fbbf24)
+    - Anggota: badge berwarna biru neon (var(--accent))
+  -->
+  <div class="modal fade modal-custom" id="memberModal" tabindex="-1"
+       aria-labelledby="memberModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-sm">
+      <div class="modal-content">
+
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <span class="modal-title" id="memberModalLabel">
+            <i class="fas fa-id-card me-2"></i>Profil
+          </span>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+
+        <!-- Modal Body — isi diisi ulang oleh JS setiap kartu diklik -->
+        <div class="modal-body">
+
+          <!-- Foto profil bulat -->
+          <img id="modal-photo"
+               src="https://ui-avatars.com/api/?name=K2&background=0ea5e9&color=fff&size=200"
+               alt="Foto Profil"
+               class="modal-profile-img" />
+
+          <!-- Nama Lengkap -->
+          <div class="modal-member-name" id="modal-name">Nama Lengkap</div>
+
+          <!--
+            Badge Role — warna diubah JS:
+            - Mentor: gold  (#fbbf24, rgba(251,191,36,...))
+            - Anggota: cyan (var(--accent), rgba(14,165,233,...))
+          -->
+          <div style="text-align:center;">
+            <span id="modal-role"
+                  style="display:inline-block;font-family:var(--font-head);font-size:0.6rem;
+                         letter-spacing:0.14em;text-transform:uppercase;padding:0.22rem 0.75rem;
+                         border-radius:100px;border:1px solid;color:var(--accent);
+                         background:rgba(14,165,233,0.08);border-color:rgba(14,165,233,0.25);
+                         margin-bottom:0.5rem;">
+              Anggota
+            </span>
+          </div>
+
+          <!-- NPM / NIP -->
+          <div class="modal-member-npm" id="modal-npm">NPM / NIP</div>
+
+          <div class="modal-divider"></div>
+
+          <!-- Biografi -->
+          <p class="modal-bio" id="modal-bio">Bio profil akan ditampilkan di sini.</p>
+
+          <div class="modal-divider"></div>
+
+          <!-- Ikon Media Sosial (Font Awesome) -->
+          <div class="modal-socials">
+            <a href="#" id="modal-linkedin" class="social-icon-link"
+               target="_blank" rel="noopener noreferrer" title="LinkedIn">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="#" id="modal-github" class="social-icon-link"
+               target="_blank" rel="noopener noreferrer" title="GitHub">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="#" id="modal-instagram" class="social-icon-link"
+               target="_blank" rel="noopener noreferrer" title="Instagram">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </div>
+
+        </div>
+        <!-- End Modal Body -->
+
+      </div>
+    </div>
+  </div>
+  <!-- ═════════════════════════ END MODAL ══════════════════════════════════ -->
+
+
+  <!-- ═══════════════════════════════ FOOTER ═══════════════════════════════ -->
+  <footer class="footer-custom">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6 mb-3 mb-md-0">
+          <div class="footer-brand">KELOMPOK 2</div>
+          <div class="footer-text">Tugas Pengkaderan — <span class="footer-accent">Departemen Informatika</span></div>
+        </div>
+        <div class="col-md-6 text-md-end">
+          <a href="index.html" class="footer-text me-3">Home</a>
+          <a href="materi.html" class="footer-text me-3">Materi</a>
+          <a href="about.html" class="footer-text">Tentang Kami</a>
+        </div>
+      </div>
+      <div class="footer-divider"></div>
+      <div class="footer-copy text-center">
+        &copy; 2024 Kelompok 2 — Pengkaderan Informatika. Dibuat dengan semangat belajar.
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
