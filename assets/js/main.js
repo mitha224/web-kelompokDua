@@ -121,7 +121,7 @@ const members = [
     photo: "https://ui-avatars.com/api/?name=Hana+Kusuma&background=0a4f7c&color=fff&size=200&bold=true",
     linkedin: "https://www.linkedin.com/in/rai-ramdhani-anugrah-643470374?utm_source=share_via&utm_content=profile&utm_medium=member_android",
     github: "https://github.com/hanakusuma",
-    instagram: "https://instagram.com/hanakusuma"
+    instagram: "https://instagram.com/rair1570"
   },
   {
     id: 9,
