@@ -42,7 +42,7 @@ const members = [
     role: "Ketua Kelompok",
     bio: "Mahasiswa Informatika angkatan 2022 yang memiliki passion kuat di bidang pengembangan web fullstack dan mobile. Aktif berkontribusi di komunitas open source kampus dan senang berbagi pengetahuan melalui workshop coding.",
     photo: "https://ui-avatars.com/api/?name=Ahmad+Rizki&background=0ea5e9&color=fff&size=200&bold=true",
-    linkedin: "https://linkedin.com/in/ahmadrizki",
+    linkedin: "https://www.linkedin.com/in/lucky-satria-59289930a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     github: "https://github.com/ahmadrizki",
     instagram: "https://instagram.com/ahmadrizki"
   },
@@ -53,7 +53,7 @@ const members = [
     role: "Sekretaris",
     bio: "Tertarik mendalami kecerdasan buatan dan machine learning untuk aplikasi bidang kesehatan. Meraih juara 2 kompetisi Data Science tingkat nasional 2023. Juga aktif dalam kegiatan penelitian di lab AI kampus.",
     photo: "https://ui-avatars.com/api/?name=Bunga+Sari&background=0e7490&color=fff&size=200&bold=true",
-    linkedin: "https://linkedin.com/in/bungasari",
+    linkedin: "https://www.linkedin.com/in/samara-shifa-novlindra-907684392?utm_source=share_via&utm_content=profile&utm_medium=member_android",
     github: "https://github.com/bungasari",
     instagram: "https://instagram.com/bungasari"
   },
@@ -86,7 +86,7 @@ const members = [
     role: "Anggota",
     bio: "Competitive programmer berpengalaman yang telah mengikuti ICPC Asia Regional dua kali berturut-turut. Sangat menyukai algoritma graf dan dynamic programming. Dalam waktu luang, ia menulis blog teknis tentang problem solving.",
     photo: "https://ui-avatars.com/api/?name=Eko+Prasetyo&background=1e40af&color=fff&size=200&bold=true",
-    linkedin: "https://linkedin.com/in/ekoprasetyo",
+    linkedin: "https://www.linkedin.com/in/kanisa-ayra-nabila-b49646405?utm_source=share_via&utm_content=profile&utm_medium=member_android",
     github: "https://github.com/ekoprasetyo",
     instagram: "https://instagram.com/ekoprasetyo"
   },
@@ -97,7 +97,7 @@ const members = [
     role: "Anggota",
     bio: "Passionate dalam pengembangan aplikasi mobile berbasis Flutter dan React Native. Menjuarai hackathon UI/UX tingkat nasional 2023 dengan aplikasi aksesibilitas untuk penyandang tunanetra. Percaya teknologi harus inklusif.",
     photo: "https://ui-avatars.com/api/?name=Farah+Amalina&background=0e4f74&color=fff&size=200&bold=true",
-    linkedin: "https://linkedin.com/in/farahamalina",
+    linkedin: "https://www.linkedin.com/in/naysa-sri-izzati-967696405?utm_source=share_via&utm_content=profile&utm_medium=member_android",
     github: "https://github.com/farahamalina",
     instagram: "https://instagram.com/farahamalina"
   },
@@ -141,7 +141,7 @@ const members = [
     role: "Anggota",
     bio: "Tertarik mendalami computer vision dan pengolahan citra digital menggunakan OpenCV dan PyTorch. Aktif sebagai asisten laboratorium Computer Vision. Sedang mengerjakan riset tentang deteksi objek real-time untuk sistem keamanan kampus berbasis CCTV.",
     photo: "https://ui-avatars.com/api/?name=Jihan+Putri&background=0369a1&color=fff&size=200&bold=true",
-    linkedin: "https://linkedin.com/in/jihanputri",
+    linkedin: "https://www.linkedin.com/in/mithaa-amelia-709457343?utm_source=share_via&utm_content=profile&utm_medium=member_android",
     github: "https://github.com/jihanputri",
     instagram: "https://instagram.com/jihanputri"
   },
