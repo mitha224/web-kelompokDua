@@ -12,22 +12,22 @@ const mentors = [
     name: "Dara Adzkia",
     npm: "247006111023",
     role: "Mentor Luar Biasa 1",
-    bio: "Dosen senior Departemen Informatika dengan spesialisasi di bidang Kecerdasan Buatan dan Machine Learning. Telah mengajar selama lebih dari 15 tahun dan aktif dalam penelitian deep learning terapan serta natural language processing.",
+    bio: "Menjadi mentor karena suka yapping dan sharing terkait perkuliahan.",
     photo: "https://ui-avatars.com/api/?name=Dara+Adzkia&background=0f4c75&color=fff&size=200&bold=true",
-    linkedin: "https://linkedin.com/in/bungasari",
-    github: "https://github.com/ahmadrizki",
-    instagram: "https://instagram.com/raivanac"
+    linkedin: "",
+    github: "https://github.com/dara023a",
+    instagram: "https://instagram.com/dardzk"
   },
   {
     id: "m2",
     name: "Nabila Rohmatul Aulia",
     npm: "247006111143",
     role: "Mentor Luar Biasa 2",
-    bio: "Dosen muda berprestasi di Departemen Informatika dengan fokus riset pada Keamanan Siber dan Rekayasa Perangkat Lunak. Aktif membimbing mahasiswa dalam kompetisi pemrograman tingkat nasional dan internasional.",
+    bio: "Menjadi mentor karena ingin mencari pengalaman baru",
     photo: "https://ui-avatars.com/api/?name=Nabila+Rohmatul+Aulia&background=0e4f74&color=fff&size=200&bold=true",
-    linkedin: "https://linkedin.com/in/nabilarohmatul",
-    github: "https://github.com/nabilarohmatul",
-    instagram: "https://instagram.com/nabilarohmatul"
+    linkedin: "https://linkedin.com/in/Nabila Rohmatul Aulia",
+    github: "",
+    instagram: "https://instagram.com/nabilaara_"
   }
 ];
 
