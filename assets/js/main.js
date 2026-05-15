@@ -108,7 +108,7 @@ const members = [
     role: "Anggota",
     bio: "Berfokus pada cloud computing, containerization (Docker, Kubernetes), dan praktik DevOps modern. Telah memperoleh sertifikasi AWS Cloud Practitioner dan sedang menempuh AWS Solutions Architect Associate. Gemar mengotomasi hal-hal repetitif.",
     photo: "https://ui-avatars.com/api/?name=Galih+Wicaksono&background=164e63&color=fff&size=200&bold=true",
-    linkedin: "https://linkedin.com/in/galihwicaksono",
+    linkedin: "https://www.linkedin.com/in/vadien-athallah-lukman-a61a12404?utm_source=share_via&utm_content=profile&utm_medium=member_android",
     github: "https://github.com/galihwicaksono",
     instagram: "https://instagram.com/galihwicaksono"
   },
@@ -119,7 +119,7 @@ const members = [
     role: "Anggota",
     bio: "Data enthusiast yang gemar mengeksplorasi dataset besar untuk menemukan insight berharga. Mahir menggunakan Python (Pandas, NumPy, Matplotlib) dan Tableau untuk visualisasi data. Saat ini magang sebagai Junior Data Analyst di perusahaan fintech lokal.",
     photo: "https://ui-avatars.com/api/?name=Hana+Kusuma&background=0a4f7c&color=fff&size=200&bold=true",
-    linkedin: "https://linkedin.com/in/hanakusuma",
+    linkedin: "https://www.linkedin.com/in/rai-ramdhani-anugrah-643470374?utm_source=share_via&utm_content=profile&utm_medium=member_android",
     github: "https://github.com/hanakusuma",
     instagram: "https://instagram.com/hanakusuma"
   },
@@ -130,7 +130,7 @@ const members = [
     role: "Anggota",
     bio: "Backend developer yang berpengalaman dengan Node.js, Express, dan Go. Sangat menyukai desain arsitektur microservices dan API RESTful yang skalabel. Kontributor aktif beberapa proyek open source dan senang menulis dokumentasi teknis yang baik.",
     photo: "https://ui-avatars.com/api/?name=Irfan+Maulana&background=0c4a6e&color=fff&size=200&bold=true",
-    linkedin: "https://linkedin.com/in/irfanmaulana",
+    linkedin: "https://www.linkedin.com/in/muhammad-dava-rayana-939566408",
     github: "https://github.com/irfanmaulana",
     instagram: "https://instagram.com/irfanmaulana"
   },
