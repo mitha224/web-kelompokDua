@@ -62,7 +62,7 @@ const members = [
     name: "Rafi Nurraivan",
     npm: "257006111103",
     role: "Anggota",
-    bio: "Berfokus pada sistem operasi berbasis Linux dan administrasi jaringan komputer. Telah mendapatkan sertifikasi Cisco CCNA dan aktif mengelola infrastruktur server laboratorium komputer Informatika.",
+    bio: "Mahasiswa Informatika yang tertarik pada bidang Desain Visual seperti UI/UX dan Grafis Komputer. Aktif sebagai tenaga kreatif di beberapa proyek perusahaan seperti FBR Box Studio.",
     photo: "https://ui-avatars.com/api/?name=Rafi+Nurraivan&background=0369a1&color=fff&size=200&bold=true",
     linkedin: "https://linkedin.com/in/rafinurraivan",
     github: "https://github.com/RaiVan777",
