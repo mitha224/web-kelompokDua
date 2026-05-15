@@ -139,11 +139,11 @@ const members = [
     name: "Mitha Amelia Syabani",
     npm: "257006111212",
     role: "Anggota",
-    bio: "Tertarik mendalami computer vision dan pengolahan citra digital menggunakan OpenCV dan PyTorch. Aktif sebagai asisten laboratorium Computer Vision. Sedang mengerjakan riset tentang deteksi objek real-time untuk sistem keamanan kampus berbasis CCTV.",
+    bio: "Dunia ini tidak dibangun hanya dengan kata-kata, tapi dengan logika dan eksekusi.",
     photo: "https://ui-avatars.com/api/?name=Jihan+Putri&background=0369a1&color=fff&size=200&bold=true",
     linkedin: "https://www.linkedin.com/in/mithaa-amelia-709457343?utm_source=share_via&utm_content=profile&utm_medium=member_android",
-    github: "https://github.com/jihanputri",
-    instagram: "https://instagram.com/jihanputri"
+    github: "https://github.com/mitha224",
+    instagram: "https://instagram.com/mythmeyy"
   },
   {
     id: 11,
@@ -216,19 +216,19 @@ function initHeroCanvas() {
   let W, H, particles;
 
   function resize() {
-    W = canvas.width  = canvas.offsetWidth;
+    W = canvas.width = canvas.offsetWidth;
     H = canvas.height = canvas.offsetHeight;
   }
 
   class Particle {
     constructor() { this.reset(); }
     reset() {
-      this.x  = Math.random() * W;
-      this.y  = Math.random() * H;
+      this.x = Math.random() * W;
+      this.y = Math.random() * H;
       this.vx = (Math.random() - 0.5) * 0.3;
       this.vy = (Math.random() - 0.5) * 0.3;
-      this.r  = Math.random() * 1.5 + 0.5;
-      this.a  = Math.random() * 0.5 + 0.1;
+      this.r = Math.random() * 1.5 + 0.5;
+      this.a = Math.random() * 0.5 + 0.1;
     }
     update() {
       this.x += this.vx;
@@ -312,17 +312,17 @@ function initScrollReveal() {
    ABOUT PAGE: Render Mentors + Members, Shared Modal
    ============================================================ */
 function initMemberModal() {
-  const modal      = document.getElementById('memberModal');
+  const modal = document.getElementById('memberModal');
   if (!modal) return;
 
   const modalPhoto = document.getElementById('modal-photo');
-  const modalName  = document.getElementById('modal-name');
-  const modalNpm   = document.getElementById('modal-npm');
-  const modalRole  = document.getElementById('modal-role');
-  const modalBio   = document.getElementById('modal-bio');
-  const modalLi    = document.getElementById('modal-linkedin');
-  const modalGh    = document.getElementById('modal-github');
-  const modalIg    = document.getElementById('modal-instagram');
+  const modalName = document.getElementById('modal-name');
+  const modalNpm = document.getElementById('modal-npm');
+  const modalRole = document.getElementById('modal-role');
+  const modalBio = document.getElementById('modal-bio');
+  const modalLi = document.getElementById('modal-linkedin');
+  const modalGh = document.getElementById('modal-github');
+  const modalIg = document.getElementById('modal-instagram');
 
   /* ── Helper: build one card HTML ── */
   function buildCard(person, isMentor) {
@@ -373,8 +373,8 @@ function initMemberModal() {
     const card = e.target.closest('.member-card[data-id]');
     if (!card) return;
 
-    const rawId  = card.dataset.id;
-    const type   = card.dataset.type;
+    const rawId = card.dataset.id;
+    const type = card.dataset.type;
     const person = type === 'mentor'
       ? mentors.find(m => m.id === rawId)
       : members.find(m => m.id === parseInt(rawId));
@@ -382,24 +382,24 @@ function initMemberModal() {
 
     // ── Populate modal ──
     if (modalPhoto) { modalPhoto.src = person.photo; modalPhoto.alt = person.name; }
-    if (modalName)  modalName.textContent  = person.name;
-    if (modalNpm)   modalNpm.textContent   = person.npm;
-    if (modalBio)   modalBio.textContent   = person.bio;
-    if (modalLi)    modalLi.href  = person.linkedin;
-    if (modalGh)    modalGh.href  = person.github;
-    if (modalIg)    modalIg.href  = person.instagram;
+    if (modalName) modalName.textContent = person.name;
+    if (modalNpm) modalNpm.textContent = person.npm;
+    if (modalBio) modalBio.textContent = person.bio;
+    if (modalLi) modalLi.href = person.linkedin;
+    if (modalGh) modalGh.href = person.github;
+    if (modalIg) modalIg.href = person.instagram;
 
     // Role badge: gold for mentor, blue for member
     if (modalRole) {
       modalRole.textContent = person.role;
       if (type === 'mentor') {
-        modalRole.style.color          = '#fbbf24';
-        modalRole.style.borderColor    = 'rgba(251,191,36,0.3)';
-        modalRole.style.background     = 'rgba(251,191,36,0.08)';
+        modalRole.style.color = '#fbbf24';
+        modalRole.style.borderColor = 'rgba(251,191,36,0.3)';
+        modalRole.style.background = 'rgba(251,191,36,0.08)';
       } else {
-        modalRole.style.color          = 'var(--accent)';
-        modalRole.style.borderColor    = '';
-        modalRole.style.background     = '';
+        modalRole.style.color = 'var(--accent)';
+        modalRole.style.borderColor = '';
+        modalRole.style.background = '';
       }
     }
 
