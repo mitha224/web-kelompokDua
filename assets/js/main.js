@@ -59,14 +59,14 @@ const members = [
   },
   {
     id: 3,
-    name: "Cahyo Nugroho",
-    npm: "22/504233/TK/55014",
+    name: "Rafi Nurraivan",
+    npm: "257006111103",
     role: "Anggota",
     bio: "Berfokus pada sistem operasi berbasis Linux dan administrasi jaringan komputer. Telah mendapatkan sertifikasi Cisco CCNA dan aktif mengelola infrastruktur server laboratorium komputer Informatika.",
-    photo: "https://ui-avatars.com/api/?name=Cahyo+Nugroho&background=0369a1&color=fff&size=200&bold=true",
-    linkedin: "https://linkedin.com/in/cahyonugroho",
-    github: "https://github.com/cahyonugroho",
-    instagram: "https://instagram.com/cahyonugroho"
+    photo: "https://ui-avatars.com/api/?name=Rafi+Nurraivan&background=0369a1&color=fff&size=200&bold=true",
+    linkedin: "https://linkedin.com/in/rafinurraivan",
+    github: "https://github.com/RaiVan777",
+    instagram: "https://instagram.com/raivanac"
   },
   {
     id: 4,
