@@ -37,8 +37,8 @@ const mentors = [
 const members = [
   {
     id: 1,
-    name: "Ahmad Rizki Pratama",
-    npm: "22/504231/TK/55012",
+    name: "Lucky Satria Wibawa",
+    npm: "257006111048",
     role: "Ketua Kelompok",
     bio: "Mahasiswa Informatika angkatan 2022 yang memiliki passion kuat di bidang pengembangan web fullstack dan mobile. Aktif berkontribusi di komunitas open source kampus dan senang berbagi pengetahuan melalui workshop coding.",
     photo: "https://ui-avatars.com/api/?name=Ahmad+Rizki&background=0ea5e9&color=fff&size=200&bold=true",
@@ -48,8 +48,8 @@ const members = [
   },
   {
     id: 2,
-    name: "Bunga Sari Dewi",
-    npm: "22/504232/TK/55013",
+    name: "Samara Shifa Novlindra",
+    npm: "257006111042",
     role: "Sekretaris",
     bio: "Tertarik mendalami kecerdasan buatan dan machine learning untuk aplikasi bidang kesehatan. Meraih juara 2 kompetisi Data Science tingkat nasional 2023. Juga aktif dalam kegiatan penelitian di lab AI kampus.",
     photo: "https://ui-avatars.com/api/?name=Bunga+Sari&background=0e7490&color=fff&size=200&bold=true",
@@ -81,8 +81,8 @@ const members = [
   },
   {
     id: 5,
-    name: "Eko Prasetyo",
-    npm: "22/504235/TK/55016",
+    name: "Kanisa Ayra Nabila",
+    npm: "257006111118",
     role: "Anggota",
     bio: "Competitive programmer berpengalaman yang telah mengikuti ICPC Asia Regional dua kali berturut-turut. Sangat menyukai algoritma graf dan dynamic programming. Dalam waktu luang, ia menulis blog teknis tentang problem solving.",
     photo: "https://ui-avatars.com/api/?name=Eko+Prasetyo&background=1e40af&color=fff&size=200&bold=true",
@@ -92,8 +92,8 @@ const members = [
   },
   {
     id: 6,
-    name: "Farah Amalina",
-    npm: "22/504236/TK/55017",
+    name: "Naysa Sri Izzati",
+    npm: "257006111142",
     role: "Anggota",
     bio: "Passionate dalam pengembangan aplikasi mobile berbasis Flutter dan React Native. Menjuarai hackathon UI/UX tingkat nasional 2023 dengan aplikasi aksesibilitas untuk penyandang tunanetra. Percaya teknologi harus inklusif.",
     photo: "https://ui-avatars.com/api/?name=Farah+Amalina&background=0e4f74&color=fff&size=200&bold=true",
@@ -103,8 +103,8 @@ const members = [
   },
   {
     id: 7,
-    name: "Galih Wicaksono",
-    npm: "22/504237/TK/55018",
+    name: "Vadien Athallah Lukman",
+    npm: "257006111160",
     role: "Anggota",
     bio: "Berfokus pada cloud computing, containerization (Docker, Kubernetes), dan praktik DevOps modern. Telah memperoleh sertifikasi AWS Cloud Practitioner dan sedang menempuh AWS Solutions Architect Associate. Gemar mengotomasi hal-hal repetitif.",
     photo: "https://ui-avatars.com/api/?name=Galih+Wicaksono&background=164e63&color=fff&size=200&bold=true",
@@ -114,8 +114,8 @@ const members = [
   },
   {
     id: 8,
-    name: "Hana Kusuma Wardani",
-    npm: "22/504238/TK/55019",
+    name: "Rai Ramadhani Anugrah",
+    npm: "257006111171",
     role: "Anggota",
     bio: "Data enthusiast yang gemar mengeksplorasi dataset besar untuk menemukan insight berharga. Mahir menggunakan Python (Pandas, NumPy, Matplotlib) dan Tableau untuk visualisasi data. Saat ini magang sebagai Junior Data Analyst di perusahaan fintech lokal.",
     photo: "https://ui-avatars.com/api/?name=Hana+Kusuma&background=0a4f7c&color=fff&size=200&bold=true",
@@ -125,8 +125,8 @@ const members = [
   },
   {
     id: 9,
-    name: "Irfan Maulana",
-    npm: "22/504239/TK/55020",
+    name: "Muhammad Dapa Rayana",
+    npm: "257006111193",
     role: "Anggota",
     bio: "Backend developer yang berpengalaman dengan Node.js, Express, dan Go. Sangat menyukai desain arsitektur microservices dan API RESTful yang skalabel. Kontributor aktif beberapa proyek open source dan senang menulis dokumentasi teknis yang baik.",
     photo: "https://ui-avatars.com/api/?name=Irfan+Maulana&background=0c4a6e&color=fff&size=200&bold=true",
@@ -136,8 +136,8 @@ const members = [
   },
   {
     id: 10,
-    name: "Jihan Putri Cantika",
-    npm: "22/504240/TK/55021",
+    name: "Mitha Amelia Syabani",
+    npm: "257006111212",
     role: "Anggota",
     bio: "Tertarik mendalami computer vision dan pengolahan citra digital menggunakan OpenCV dan PyTorch. Aktif sebagai asisten laboratorium Computer Vision. Sedang mengerjakan riset tentang deteksi objek real-time untuk sistem keamanan kampus berbasis CCTV.",
     photo: "https://ui-avatars.com/api/?name=Jihan+Putri&background=0369a1&color=fff&size=200&bold=true",
@@ -147,8 +147,8 @@ const members = [
   },
   {
     id: 11,
-    name: "Kevin Andrianto",
-    npm: "22/504241/TK/55022",
+    name: "Okan Ramadhan",
+    npm: "257006111008",
     role: "Anggota",
     bio: "Berfokus pada pengembangan game menggunakan Unity dan Unreal Engine, serta grafika komputer 3D. Telah merilis dua game indie di platform itch.io. Percaya bahwa game adalah medium seni yang paling ekspresif dan interaktif di era modern.",
     photo: "https://ui-avatars.com/api/?name=Kevin+Andrianto&background=1d4ed8&color=fff&size=200&bold=true",
