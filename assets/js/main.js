@@ -9,25 +9,25 @@
 const mentors = [
   {
     id: "m1",
-    name: "Dr. Budi Santoso, M.Kom.",
-    npm: "NIP: 197504152005011002",
-    role: "Dosen Pembimbing I",
+    name: "Dara Adzkia",
+    npm: "247006111023",
+    role: "Mentor Luar Biasa 1",
     bio: "Dosen senior Departemen Informatika dengan spesialisasi di bidang Kecerdasan Buatan dan Machine Learning. Telah mengajar selama lebih dari 15 tahun dan aktif dalam penelitian deep learning terapan serta natural language processing.",
-    photo: "https://ui-avatars.com/api/?name=Budi+Santoso&background=0f4c75&color=fff&size=200&bold=true",
-    linkedin: "#",
-    github: "#",
-    instagram: "#"
+    photo: "https://ui-avatars.com/api/?name=Dara+Adzkia&background=0f4c75&color=fff&size=200&bold=true",
+    linkedin: "https://linkedin.com/in/bungasari",
+    github: "https://github.com/ahmadrizki",
+    instagram: "https://instagram.com/raivanac"
   },
   {
     id: "m2",
-    name: "Siti Rahayu, S.T., M.T.",
-    npm: "NIP: 198902272015042001",
-    role: "Dosen Pembimbing II",
+    name: "Nabila Rohmatul Aulia",
+    npm: "247006111143",
+    role: "Mentor Luar Biasa 2",
     bio: "Dosen muda berprestasi di Departemen Informatika dengan fokus riset pada Keamanan Siber dan Rekayasa Perangkat Lunak. Aktif membimbing mahasiswa dalam kompetisi pemrograman tingkat nasional dan internasional.",
-    photo: "https://ui-avatars.com/api/?name=Siti+Rahayu&background=0e4f74&color=fff&size=200&bold=true",
-    linkedin: "#",
-    github: "#",
-    instagram: "#"
+    photo: "https://ui-avatars.com/api/?name=Nabila+Rohmatul+Aulia&background=0e4f74&color=fff&size=200&bold=true",
+    linkedin: "https://linkedin.com/in/nabilarohmatul",
+    github: "https://github.com/nabilarohmatul",
+    instagram: "https://instagram.com/nabilarohmatul"
   }
 ];
 
@@ -64,7 +64,7 @@ const members = [
     role: "Anggota",
     bio: "Mahasiswa Informatika yang tertarik pada bidang Desain Visual seperti UI/UX dan Grafis Komputer. Aktif sebagai tenaga kreatif di beberapa proyek perusahaan seperti FBR Box Studio.",
     photo: "https://ui-avatars.com/api/?name=Rafi+Nurraivan&background=0369a1&color=fff&size=200&bold=true",
-    linkedin: "https://linkedin.com/in/rafinurraivan",
+    linkedin: "https://linkedin.com/in/RafiNurraivan",
     github: "https://github.com/RaiVan777",
     instagram: "https://instagram.com/raivanac"
   },
