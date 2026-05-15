@@ -70,14 +70,14 @@ const members = [
   },
   {
     id: 4,
-    name: "Dina Fitriani",
-    npm: "22/504234/TK/55015",
+    name: "Rhayzan Noufal Askarirulloh Achwani",
+    npm: "257006111104",
     role: "Anggota",
-    bio: "Antusias di bidang basis data dan rekayasa perangkat lunak. Berpengalaman dalam desain skema relasional kompleks dan optimasi query SQL. Saat ini tengah mengerjakan skripsi tentang sistem manajemen inventaris berbasis cloud.",
-    photo: "https://ui-avatars.com/api/?name=Dina+Fitriani&background=075985&color=fff&size=200&bold=true",
-    linkedin: "https://linkedin.com/in/dinafitriani",
-    github: "https://github.com/dinafitriani",
-    instagram: "https://instagram.com/dinafitriani"
+    bio: "Mahasiswa Informatika tertarik terhadap penembanan AI, dan Robotika.",
+    photo: "https://ui-avatars.com/api/?name=Rhayzan+Noufal+Askarirulloh+Achwani&background=0ea5e9&color=fff&size=200&bold=true",
+    linkedin: "https://www.linkedin.com/in/rhayzan-noufal-askarirulloh-achwani-6ab14a404?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+    github: "https://github.com/Rhayzan255",
+    instagram: "https://instagram.com/rhayzannaa"
   },
   {
     id: 5,
