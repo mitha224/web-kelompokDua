@@ -1,103 +1,216 @@
-<!DOCTYPE html>
-<html lang="id">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Materi 2: Retorika — Kelompok 2 Pengkaderan Informatika" />
-  <title>Materi 4: Retorika — Kelompok 2</title>
-
-  <!-- Bootstrap 5 CSS -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" />
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
-  <!-- Custom CSS -->
-  <link rel="stylesheet" href="../assets/css/style.css" />
-</head>
-<body class="page-wrapper">
-
-  <nav class="navbar navbar-expand-lg navbar-custom">
-    <div class="container">
-      <a class="navbar-brand-custom" href="../index.html">
-        <span class="brand-dot"></span>
-        KELOMPOK 2
-      </a>
-
-      <button class="navbar-toggler" type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navMenu">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse justify-content-end" id="navMenu">
-        <ul class="navbar-nav gap-1">
-          <li class="nav-item">
-            <a class="nav-link-custom" href="../index.html">
-              <i class="fas fa-house me-1" style="font-size:0.65rem;"></i> Home
-            </a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link-custom active" href="../materi.html">
-              <i class="fas fa-book-open me-1" style="font-size:0.65rem;"></i> Materi
-            </a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link-custom" href="../about.html">
-              <i class="fas fa-users me-1" style="font-size:0.65rem;"></i> Tentang Kami
-            </a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
-  <main class="main-content">
-
-    <!-- HERO -->
-    <section class="materi-hero">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8">
-
-            <span class="materi-number-tag">
-              <i class="fas fa-circle" style="font-size:0.4rem;"></i>
-              MATERI 02 / 08
-            </span>
-
-            <h1 class="materi-page-title fade-in fade-in-1">
-              Retorika
-            </h1>
-
-            <p class="materi-page-desc fade-in fade-in-2">
-              Seni menggunakan bahasa secara efektif untuk menyampaikan pesan,
-              memengaruhi audiens, dan membangun komunikasi yang baik dalam
-              berbagai situasi.
-            </p>
-
-            <div class="d-flex flex-wrap gap-3 mt-3 fade-in fade-in-3">
-              <span class="info-tag">
-                <i class="fas fa-microphone"></i> Materi 2
-              </span>
-
-              <span class="info-tag">
-                <i class="fas fa-clock"></i> 45 menit
-              </span>
-
-              <span class="info-tag">
-                <i class="fas fa-book"></i> 4 Topik
-              </span>
-            </div>
-
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- KONTEN -->
-    <section class="section-block">
-      <div class="container">
-        <div class="row">
+‎<!DOCTYPE html>
+‎<html lang="id">
+‎<head>
+‎  <!-- ══════════════════════════════════════════
+‎       materi4.html — Materi : Basis Data
+‎       Kelompok 2 | Pengkaderan Informatika
+‎       Path: materi/materi5.html
+‎       CSS/JS: ../assets/  |  Nav links: ../
+‎  ═════════════════════════════════════════════ -->
+‎  <meta charset="UTF-8" />
+‎  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+‎  <meta name="description" content="Materi 4: Otoritas Informasi — Kelompok 2 Pengkaderan Informatika" />
+‎  <title>Materi 4: Otoritas Informasi — Kelompok 2</title>
+‎
+‎  <!-- Bootstrap 5 CSS -->
+‎  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" />
+‎  <!-- Font Awesome -->
+‎  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+‎  <!-- Custom CSS — path relatif dari materi/ ke assets/ -->
+‎  <link rel="stylesheet" href="../assets/css/style.css" />
+‎</head>
+‎<body class="page-wrapper">
+‎
+‎  <nav class="navbar navbar-expand-lg navbar-custom">
+‎    <div class="container">
+‎      <a class="navbar-brand-custom" href="../index.html">
+‎        <span class="brand-dot"></span>
+‎        KELOMPOK 2
+‎      </a>
+‎      <button class="navbar-toggler" type="button"
+‎              data-bs-toggle="collapse" data-bs-target="#navMenu"
+‎              aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+‎        <span class="navbar-toggler-icon"></span>
+‎      </button>
+‎      <div class="collapse navbar-collapse justify-content-end" id="navMenu">
+‎        <ul class="navbar-nav gap-1">
+‎          <li class="nav-item">
+‎            <a class="nav-link-custom" href="../index.html">
+‎              <i class="fas fa-house me-1" style="font-size:0.65rem;"></i> Home
+‎            </a>
+‎          </li>
+‎          <li class="nav-item">
+‎            <a class="nav-link-custom active" href="../materi.html">
+‎              <i class="fas fa-book-open me-1" style="font-size:0.65rem;"></i> Materi
+‎            </a>
+‎          </li>
+‎          <li class="nav-item">
+‎            <a class="nav-link-custom" href="../about.html">
+‎              <i class="fas fa-users me-1" style="font-size:0.65rem;"></i> Tentang Kami
+‎            </a>
+‎          </li>
+‎        </ul>
+‎      </div>
+‎    </div>
+‎  </nav>
+‎
+‎  <main class="main-content">
+‎
+‎    <!-- ─── PAGE HEADER ─── -->
+‎    <section class="materi-hero">
+‎      <div class="container">
+‎        <div class="row">
+‎          <div class="col-lg-8">
+‎            <span class="materi-number-tag">
+‎              <i class="fas fa-circle" style="font-size:0.4rem;"></i>
+‎              MATERI 05 / 08
+‎            </span>
+‎            <h1 class="materi-page-title fade-in fade-in-1">Otoritas Informasi</h1>
+‎            <p class="materi-page-desc fade-in fade-in-2">Pengertian, dan 3 Hal Penting Tentang Otoritas Informasi dalam konteks keamanan, privasi data, serta pemimpin.</p>
+‎            <div class="d-flex flex-wrap gap-3 mt-3 fade-in fade-in-3">
+‎              <span class="info-tag"><i class="fas fa-shield-alt"></i> Materi 5</span>
+‎              <span class="info-tag"><i class="fas fa-clock"></i> 50 menit</span>
+‎              <span class="info-tag"><i class="fas fa-book"></i> 4 Topik</span>
+‎            </div>
+‎          </div>
+‎        </div>
+‎      </div>
+‎    </section>
+‎
+‎    <!-- ─── KONTEN MATERI ─── -->
+‎    <section class="section-block">
+‎      <div class="container">
+‎        <div class="row">
+‎          <!-- Konten Utama -->
+‎          <div class="col-lg-8">
+‎            <div class="mb-4 reveal">
+‎              <span class="section-tag">Ringkasan Materi</span>
+‎              <p style="color:var(--text-secondary);font-size:0.92rem;line-height:1.78;margin-top:0.7rem;font-weight:300;">
+‎                Otoritas informasi adalah tingkat kepercayaan dan kredibilitas suatu sumber informasi, yang menentukan apakah informasi tersebut layak dipercaya dan digunakan.
+‎                <strong style="color:var(--accent);">Artinya</strong>
+‎                tidak semua informasi itu benar kita harus melihat siapa yang membuat, dari mana asalnya, dan seberapa dapat dipertanggungjawabkan.
+‎              </p>
+‎            </div>
+‎
+‎            <!-- Topik-topik -->
+‎
+‎          <div class="content-card reveal">
+‎            <h3><i class="fas fa-chevron-right me-2" style="font-size:0.7rem;"></i>Kredibilitas Sumber Informasi</h3>
+‎            <p>Kredibilitas sumber adalah tingkat kepercayaan terhadap pihak yang menyampaikan informasi. Sumber dianggap kredibel jika penulisnya ahli, berasal dari lembaga terpercaya, dan memiliki reputasi yang baik. Singkatnya: semakin jelas dan terpercaya asal sumbernya, semakin tinggi kredibilitasnya..</p>
+‎            <ul class="mt-3">
+‎              <li>Identitas Penulis: 
+‎                Periksa siapa yang menulis informasi tersebut, apakah memiliki keahlian atau latar belakang yang sesuai.
+‎              </li>
+‎              <li>Lembaga dan Institusi 
+‎                Sumber dari lembaga resmi seperti pemerintah, universitas, atau jurnal ilmiah biasanya lebih terpercaya.
+‎              </li>
+‎              <li>Reputasi Sumber 
+‎                Periksa reputasi sumber informasi tersebut di media sosial, situs web, atau platform lainnya.
+‎              </li>
+‎            </ul>
+‎          </div>
+‎          <div class="content-card reveal">
+‎            <h3><i class="fas fa-chevron-right me-2" style="font-size:0.7rem;"></i>Akurasi Informasi</h3>
+‎            <p> Akurasi informasi adalah tingkat kebenaran suatu informasi berdasarkan fakta dan data yang dapat dibuktikan. Informasi yang akurat biasanya memiliki sumber jelas, didukung bukti, dan tidak mengandung kesalahan atau hoaks. Singkatnya: semakin sesuai dengan fakta, semakin akurat informasinya.</p>
+‎            <ul class="mt-3">
+‎              <li>Kesusuain Fakta
+‎                Informasi harus sesuai dengan data atau fakta yang dapat diverifikasi.
+‎              </li>
+‎              <li>Jelas nya Referensi
+‎                Sumber yang baik biasanya mencantumkan referensi atau rujukan yang jelas.
+‎              </li>
+‎              <li>Jauh Hoax
+‎                Hindari informasi yang bersifat sensasional tanpa bukti yang kuat.
+‎              </li>
+‎            </ul>
+‎          </div>
+‎          <div class="content-card reveal">
+‎            <h3><i class="fas fa-chevron-right me-2" style="font-size:0.7rem;"></i>Relevansi dan Tujuan</h3>
+‎            <p>Relevansi dan tujuan adalah kesesuaian informasi dengan kebutuhan serta maksud dibuatnya informasi tersebut. Informasi yang baik harus tepat dengan topik yang dicari dan tidak dibuat untuk menyesatkan atau sekadar promosi. Singkatnya: informasi harus cocok dengan kebutuhan dan punya tujuan yang jelas.</p>
+‎            <ul class="mt-3">
+‎              <li>Kesesuain dengan kebutuhan
+‎                Informasi harus relevan dengan topik atau tujuan pencarian.
+‎              </li>
+‎              <li>Tujuan Penulis
+‎                Perhatikan apakah informasi dibuat untuk edukasi, promosi, atau sekadar opini.
+‎              </li>
+‎              <li>Tingkat Objektivitas
+‎                Informasi yang baik bersifat netral dan tidak terlalu bias.
+‎              </li>
+‎            </ul>
+‎          </div>
+‎           <div class="content-card reveal">
+‎            <h3><i class="fas fa-chevron-right me-2" style="font-size:0.7rem;"></i>TOPIK PENTING LKM</h3>
+‎            <p>Data dan Informasi adalah senjata dalam dunia digital, terutama bagi pemimpin, bisa di bilang itu adalah "senjata utama" Alasannya?</p>
+‎            <ul class="mt-3">
+‎              <li>Dengan adanya data dan informasi, pemimpin dapat membuat keputusan yang lebih baik dan lebih tepat.
+‎              </li>
+‎              <li>Data dan informasi membantu pemimpin dalam menganalisis situasi dan menjadi bahan utama "evaluasi"</li>
+‎              <li>Data dan informasi juga menjadi dasar pengawasan. Intinya jika pemimpin mempunyai data dan informasi yang akurat, mereka sudah 1 langkah lebih maju dari yang lain.</li>
+‎            </ul>
+‎          </div>
+‎
+‎            <!-- Navigasi Prev / Next -->
+‎        <div class="materi-nav-bar">
+‎          <div><a href="materi4.html" class="btn-ghost"><i class="fas fa-arrow-left"></i> Materi 4</a></div>
+‎          <a href="../materi.html" class="btn-ghost">
+‎            <i class="fas fa-th-large"></i> Semua Materi
+‎          </a>
+‎          <div><a href="materi6.html" class="btn-neon">Materi 6 <i class="fas fa-arrow-right"></i></a></div>
+‎        </div>
+‎          </div>
+‎
+‎          <!-- Sidebar -->
+‎          <div class="col-lg-4 mt-4 mt-lg-0">
+‎            <div class="content-card reveal" style="position:sticky;top:5.5rem;">
+‎              <h3><i class="fas fa-list-check me-2"></i>Daftar Topik</h3>
+‎              <ul><li>Kredibilitas Sumber Informasi</li><li>Akurasi Informasi</li><li>Relevansi dan Tujuan</li></ul>
+‎              <div style="height:1px;background:var(--border);margin:1.2rem 0;"></div>
+‎              <h3><i class="fas fa-info-circle me-2"></i>Info Materi</h3>
+‎              <ul>
+‎                <li>Materi ke-5 dari 8</li>
+‎                <li>Estimasi: 50 menit</li>
+‎                <li>Kelompok 2 — 2026</li>
+‎              </ul>
+‎              <div style="height:1px;background:var(--border);margin:1.2rem 0;"></div>
+‎              <a href="../materi.html" class="btn-ghost w-100 justify-content-center">
+‎                <i class="fas fa-th-large"></i> Kembali ke Hub
+‎              </a>
+‎            </div>
+‎          </div>
+‎
+‎        </div>
+‎      </div>
+‎    </section>
+‎
+‎  </main>
+‎
+‎  <footer class="footer-custom">
+‎    <div class="container">
+‎      <div class="row align-items-center">
+‎        <div class="col-md-6 mb-3 mb-md-0">
+‎          <div class="footer-brand">KELOMPOK 2</div>
+‎          <div class="footer-text">Tugas Pengkaderan — <span class="footer-accent">Departemen Kaderisasi</span></div>
+‎        </div>
+‎        <div class="col-md-6 text-md-end">
+‎          <a href="../index.html" class="footer-text me-3">Home</a>
+‎          <a href="../materi.html" class="footer-text me-3">Materi</a>
+‎          <a href="../about.html" class="footer-text">Tentang Kami</a>
+‎        </div>
+‎      </div>
+‎      <div class="footer-divider"></div>
+‎      <div class="footer-copy text-center">
+‎        &copy; 2025 Kelompok 2 — Pengkaderan Informatika. Dibuat dengan semangat belajar.
+‎      </div>
+‎    </div>
+‎  </footer>
+‎
+‎  <!-- Bootstrap 5 JS Bundle -->
+‎  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+‎  <!-- Custom JS — path relatif dari materi/ ke assets/ -->
+‎  <script src="../assets/js/main.js"></script>
+‎</body>
+‎</html>        <div class="row">
 
           <!-- CONTENT -->
           <div class="col-lg-8">
